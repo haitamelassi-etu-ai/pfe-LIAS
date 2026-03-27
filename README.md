@@ -53,7 +53,6 @@ Plateforme web institutionnelle et scientifique du laboratoire LIAS.
 6. alembic upgrade head
 7. python scripts/seed.py
 8. uvicorn app.main:app --reload
-7. (option demo) python scripts/seed.py
 
 ### Frontend
 1. cd frontend
@@ -121,6 +120,11 @@ Pour creer un administrateur, inscrire un compte puis modifier son role en base 
 - Diagrammes et architecture: docs/ARCHITECTURE.md et docs/UML_MERMAID.md
 - Donnees de demonstration: backend/scripts/seed.py
 - Scenario de demonstration: docs/DEMO_SCENARIO.md
+- Checklist release: docs/RELEASE_READINESS.md
+- Plan de tests: docs/TEST_PLAN.md
+- Matrice de tracabilite: docs/TRACEABILITY_MATRIX.md
+- Deploy guides: docs/DEPLOY_RENDER.md et docs/DEPLOY_RAILWAY.md
+- Protection de branche: docs/BRANCH_PROTECTION.md
 
 ## Notes
 - Ce MVP couvre les fonctions critiques du cahier des charges avec une base evolutive.
